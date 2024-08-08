@@ -1,0 +1,10 @@
+# Example catalog-info.yaml entity definition file
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  # other metadata fields
+  annotations:
+    gitlab.com/project-id: 'aditi4602929 
+spec:
+  type: service
+  # other spec fields
