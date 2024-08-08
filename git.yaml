@@ -1,12 +1,15 @@
+# Example catalog-info.yaml entity definition file
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example
-  description: example.com
+  name: my-service
+  description: A description of my service
   annotations:
-    gitlab.com/project-id: '60213724'  # Replace with your actual GitLab Project ID  # Replace with your actual GitLab Project Slug
+    gitlab.com/project-id: 'aditi4602929' # Replace with your GitLab project ID
+    gitlab.com/project-slug: 'group_name/project_name' # Replace with your GitLab group and project name
 spec:
   type: service
-
-
+  lifecycle: production
+  owner: team-name
+  # other spec fields
 
